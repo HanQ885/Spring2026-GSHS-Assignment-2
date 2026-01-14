@@ -19,4 +19,3 @@ def logistic_regression(x_train: np.ndarray, y_train: np.ndarray, x_test: np.nda
     m=LogisticRegression()
     m.fit(x_train,y_train)
     return m.predict(x_test).astype(int)
-    
